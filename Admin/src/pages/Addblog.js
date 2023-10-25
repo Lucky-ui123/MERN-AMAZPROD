@@ -166,7 +166,7 @@ const Addblog = () => {
                         theme="snow"
                         className="mt-3"
                         name="description"
-                        onChange={formik.handleChange}
+                        onChange={formik.handleChange("description")}
                         // onBlur={formik.handleBlur("description")}
                         value={formik.values.description}
                     />

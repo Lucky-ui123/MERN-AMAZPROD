@@ -256,7 +256,7 @@ const Dashboard = () => {
                     <div>
                         <p className="desc">Total Sales</p>
                         <h4 className="mb-0 sub-title">
-                            {yearlyDataState && yearlyDataState[0].count}
+                            {yearlyDataState && yearlyDataState[0]?.count}
                         </h4>
                     </div>
                     <div className="d-flex flex-column align-items-end">
